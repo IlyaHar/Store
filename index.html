@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,25 +13,56 @@
 <body>
     <header class="p-3 text-bg-light d-flex ">
         <div class="container">
+            
           <div class="d-flex flex-wrap align-items-center justify-content-center ">
             <div class="header-burger">
                 <span></span>
             </div>
-            <nav class="mobile-menu">
-                <ul class="mobile-list">
-                    <li><a class="header-link" href="#">Помічники</a></li>
-                    <li><a class="header-link" href="#">Контакти</a></li>
-                    <li><a class="header-link" href="#">Щоденник</a></li>
-                    <li><a class="header-link" href="#">Виробники</a></li>
-                </ul>
-            </nav>
             <div class="logo-container"> <a class="text-decoration-none text-dark logo  " href="#">Авм <span class="logo-br">Агро</span></a></div>
           
             <div class="search-container">
                 <input type="text" class="search-input" placeholder="Пошук..."> 
             </div>
-            <i class="fa-solid fa-cart-shopping cart"></i>
-            
+            <a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        
+            <nav class="mobile-menu bg-light">
+                <ul class="mobile-list">
+                  
+                    <div class="menu-buttons d-flex justify-content-center align-items-center mt-3">
+                    <button type="button" class="btn btn-dark mx-2">Увійти</button>
+                    <button type="button" class="btn btn-warning ">Зареєструватися</button>
+                    </div>
+                    <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button bg-light text-black fs-5 border-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                             <a class="text-decoration-none text-black" href="">Категорії</a> 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample">
+                            <li class="sub-item "><a class="header-link top-items fs-5" href="#">Посівний матеріал</a></li>
+                            <li class="sub-item"><a class="header-link top-items fs-5" href="#">Засоби захисту рослин</a></li>
+                            <li class="sub-item"><a class="header-link top-items fs-5" href="#">Добрива</a></li>
+                          </div>
+                        </div>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Популярні товари</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Акційні товари</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Нові товари</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Уцінка</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Кошик</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Доставка</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Щоденник</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Виробники</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Помічники</a></li>
+                    <li class="link-header"><a class="header-link top-items fs-5" href="#">Контакти</a></li>
+                    <div class="phone-mobile mt-3 mx-4">
+                        <i class="fa-solid fa-phone"></i>
+                        <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (096) 733 733 0</a>
+                    </div>
+                </ul>
+            </nav>
+       
+          
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 mx-5 ">
               <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Помічники</a></li>
               <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item ">Контакти</a></li>
@@ -44,14 +75,51 @@
             </div>
         </div>
     </header>
-
-  
-     <div class=" text-bg-dark">
-        <div class="container menu">
+     <div class="text-bg-dark fixed-theme">
+        <div class="container menu ">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
-                <div class="menu nav nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <div class="catalog">
-                    <a class="text-decoration-none text-light navcatalog fs-5" href="#"><i class="fa-solid fa-bars mx-3 fs-5"></i>Каталог</a>
+                <div class="menu nav nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 d-">
+                   <div class="catalog">
+                       <li> <a  class="text-decoration-none text-light navcatalog fs-5 catalog-button" id="catalog-button" href="#">
+                            <i class="fa-solid fa-bars mx-3 fs-5"></i>Каталог</a>
+                            
+                                <ul class="menu nav-catalog nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 flex-column">
+                                    <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
+                                        <a class="text-dark text-item " href="#"><i class="fa-solid fa-seedling fs-5 px-3"></i>ПОСІВНИЙ МАТЕРІАЛ</a>
+                                        <i class="fa-solid fa-chevron-right arrow"></i>
+                                        <ul class="subitems text-bg-dark ">
+                                            <li class="nav__item"><a class="text-light subitem" href="#">НАСІННЯ СОНЯШНИКА</a></li>
+                                            <li class=""><a class="text-light subitem" href="#">НАСІННЯ КУКУРУДЗИ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
+                                        <a class="text-dark text-item" href="#">
+                                            <i class="fa-brands fa-pagelines fs-5 px-3">
+                                        </i>ЗАСОБИ ЗАХИСТУ РОСЛИН</a><i class="fa-solid fa-chevron-right arrow"></i>
+                                        <ul class="subitems2 text-bg-dark ">
+                                            <li><a class="text-light subitem" href="#">ГЕРБІЦИДИ</a></li>
+                                            <li><a class="text-light subitem" href="#">ФУНГІЦИДИ</a></li>
+                                            <li><a class="text-light subitem" href="#">ІНСЕКТИЦИДИ</a></li>
+                                            <li><a class="text-light subitem" href="#">ПРОТРУЙНИКИ</a></li>
+                                            <li><a class="text-light subitem" href="#">РОДЕНТИЦИДИ</a></li>
+                                            <li><a class="text-light subitem nonem" href="#">ПРИЛИПАЧІ</a></li>
+                                            <li><a class="text-light subitem nonem" href="#">ДЕСИКАНТИ</a></li>
+                                            <li><a class="text-light subitem nonem" href="#">ФУМІГАНТИ</a></li>
+                                            <li><a class="text-light subitem nonem" href="#">РЕГУЛЯТОРИ РОСТУ</a></li>
+                                            <li><a class="text-light subitem nonem" href="#">ІНОКУЛЯНТИ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
+                                        <a class="text-dark text-item" href="#"><i class="fa-solid fa-leaf fs-5 px-3">
+                                        </i>ДОБРИВА</a>
+                                        <i class="fa-solid fa-chevron-right arrow"></i>
+                                        <ul class="subitems text-bg-dark">
+                                            <li><a class="text-light subitem" href="#">МІКРОДОБРИВА</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </a>
                     </div>
                  </div>
               <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 menu" role="search">
@@ -64,6 +132,7 @@
               </div>
             </div>
         </div>
+    
     </div>
     <div class="container navigation">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -104,47 +173,816 @@
                     </li>
                 </ul>
                 <div class="header-cards float-end d-flex">
-                    <div class="header-card bg-secondary-subtle"><a class="text-dark text-decoration-none" href="#">Популярні товари</a></div>
-                    <div class="header-card bg-secondary-subtle"><a class="text-dark text-decoration-none" href="#">Акційні товари</a></div>
-                    <div class="header-card bg-secondary-subtle"><a class="text-dark text-decoration-none" href="#">Нові товари</a></div>
-                    <div class="header-card bg-secondary-subtle"><a class="text-dark text-decoration-none" href="#">Уцінка</a></div>
+                    <a class="text-decoration-none" href="#popular-product"><div class="header-card "><span class="text-dark text-decoration-none">Популярні товари</span></div></a>
+                    <a class="text-decoration-none" href="#action-product"><div class="header-card "><span class="text-dark text-decoration-none">Акційні товари</span></div></a>
+                    <a class="text-decoration-none" href="#new-product"><div class="header-card "><span class="text-dark text-decoration-none">Нові товари</span></div></a>
+                    <a class="text-decoration-none" href="#discount"><div class="header-card "><span class="text-dark text-decoration-none">Уцінка</span></div></a>
                 </div>
              </div>
         </div>
     </div>
 </div>
 <div class="container slide ">
-    <div class="slideshow-container">
         <div class="MySlides fade1 ">
-            <a class="image" href="#"><img src="assets/img/0f2fed21ca681fe89a713358dd8c2d60.jpg" style="width: 100%;" alt="banner"></a>
+            <a class="image" href="#"><img class="image-banner" src="assets/img/0f2fed21ca681fe89a713358dd8c2d60.jpg" style="width: 100% ;" alt="banner"></a>
         </div>
-    </div>
-    <div class="slideshow-container">
         <div class="MySlides fade1 ">
-            <a class="image" href="#"><img src="assets/img/139c6fbd8ed3855cd053d9406c26a922.jpg" style="width: 100%;" alt="banner"></a>
+            <a class="image" href="#"><img class="image-banner" src="assets/img/139c6fbd8ed3855cd053d9406c26a922.jpg" style="width: 100%;" alt="banner"></a>
         </div>
-    </div>
-    <div class="slideshow-container">
         <div class="MySlides fade1 ">
-            <a class="image" href="#"><img src="assets/img/3601bd11339a7dac201c9ff31a6cd5c4.jpg" style="width: 100%;" alt="banner"></a>
-        </div>
-    </div>
-    <div class="slideshow-container">
+            <a class="image" href="#"><img class="image-banner" src="assets/img/3601bd11339a7dac201c9ff31a6cd5c4.jpg" style="width: 100%;" alt="banner"></a>
+        </div> 
         <div class="MySlides fade1 ">
-            <a class="image" href="#"><img src="assets/img/c27c2c9b0e6cfe32132ca5ab84c2527d.jpg" style="width: 100%;" alt="banner"></a>
+        <a class="image" href="#"><img class="image-banner" src="assets/img/c27c2c9b0e6cfe32132ca5ab84c2527d.jpg" style="width: 100%;" alt="banner"></a>
         </div>
 </div>
-</div>
-
 <br>
-<div class="container d-flex justify-content-center">
+<div  class="container d-flex justify-content-center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)" ></span>
     <span class="dot" onclick="currentSlide(3)"></span>
     <span class="dot" onclick="currentSlide(4)"></span>
 </div>
+<div class="container-lg card-body">
+    <div id="popular-product"  class="main-products">
+        <h2  class="product-main text-secondary">Популярні товари</h2>
+    </div>
+    <div class="card-container d-flex justify-content-center" id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="card-container d-flex justify-content-center " id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button id="loadMoreButton" class="btn btn-primary btn-next">Подивитися ще</button>
+
+    <div class="products-next" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="products-next" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container-lg card-body">
+    <div class="main-products">
+        <h2 id="action-product" class="product-main text-secondary">Акційні товари</h2>
+    </div>
+    <div class="card-container d-flex justify-content-center" id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="card-container d-flex justify-content-center " id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button id="loadMoreButton2" class="btn btn-primary">Подивитися ще</button>
+
+    <div class="products-next2" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="products-next2" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container-lg card-body">
+    <div class="main-products">
+        <h2 id="new-product" class="product-main text-secondary">Нові товари</h2>
+    </div>
+    <div class="card-container d-flex justify-content-center" id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="card-container d-flex justify-content-center " id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button id="loadMoreButton3" class="btn btn-primary">Подивитися ще</button>
+
+    <div class="products-next3" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="products-next3" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container-lg card-body">
+    <div class="main-products">
+        <h2 id="discount" class="product-main text-secondary">Уцінка</h2>
+    </div>
+    <div class="card-container d-flex justify-content-center" id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="card-container d-flex justify-content-center " id="products-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button id="loadMoreButton4" class="btn btn-primary">Подивитися ще</button>
+
+    <div class="products-next4" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="products-next4" id="products-next-container">
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="assets/img/syngenta.jpg" alt="">
+                    <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
+                    <p class="text-center text-danger price-card">330.60 грн / л</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+    <footer class="text-bg-dark">
+        <div class="container-xl footer-content">
+            <div class="columns d-flex justify-content-center">
+                <div class="column">
+                    <h5>ГРАФІК РОБОТИ</h5>
+                    <span>Пн-Пт з 8:00-19:00</span><br>
+                    <span>Сб-Нд з 9:00-15:00</span>
+                </div>
+                <div class="column">
+                   <ul>
+                    <h5>КОМПАНІЯ</h5>
+                    <li class="footer-item"><a href="">Щоденник</a></li>
+                    <li class="footer-item"><a href="">Про компанію</a></li>
+                    <li class="footer-item"><a href="">Контакти</a></li>
+                    <li class="footer-item"><a href="">Публічна угода</a></li>
+                    <li class="footer-item"><a href="">Партнери</a></li>
+                    <li class="footer-item"><a href="">Співпраця з нами</a></li>
+                   </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <h5>ІНФОРМАЦІЯ</h5>
+                 <li class="footer-item"><a href="">Доставка і оплата</a></li>
+                 <li class="footer-item"><a href="">Карта сайту</a></li>
+                 <li class="footer-item"><a href="">Помічник</a></li>
+                 <li class="footer-item"><a href="">Проблеми із замовленням</a></li>
+                 <li class="footer-item"><a href="">Кредитування</a></li>
+                </ul>
+         </div>
+         <div class="column">
+            <ul>
+            <h5>БІЗНЕС</h5>
+             <li class="footer-item"><a href="">Гектар маркет плейс</a></li>
+             <li class="footer-item"><a href="">Оптовим клієнтам</a></li>
+             <li class="footer-item"><a href="">Кабінет продавця</a></li>
+            </ul>
+         </div>
+         <div class="column-contacts">
+            <h5>КОНТАКТИ</h5>
+            <span>+38 (096) 733 733 0</span><br>
+            <span>+38 (096) 733 733 0</span><br>
+            <span>+38 (096) 733 733 0</span><br>
+            <span>+38 (096) 733 733 0</span>
+            <p class="mt-1">info@hectare.ua</p>
+            <div class="footer-socials">
+                <a href=""><i class="fa-brands fa-youtube fs-4 social-footer text-light"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fs-4 social-footer text-light"></i></a>
+                <a href=""><i class="fa-brands fa-facebook fs-4 social-footer text-light"></i></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+   
+    <div class="accordion accordion-flush "  id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header d-flex">
+            <button class="accordion-button   collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"  aria-expanded="false" aria-controls="flush-collapseOne">
+               <span class="text-btn text-dark">ГРАФІК РОБОТИ</span> 
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><span>Пн-Пт з 8:00-19:00</span><br>
+                <span>Сб-Нд з 9:00-15:00</span></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <span class="text-btn text-dark">КОМПАНІЯ</span>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ">   
+                
+                <li class="footer-item"><a class="text-decoration-none text-dark" href="">Щоденник</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark"  href="">Про компанію</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark"  href="">Контакти</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark"  href="">Публічна угода</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark"  href="">Партнери</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark"  href="">Співпраця з нами</a></li>
+               </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <span class="text-btn text-dark">ІНФОРМАЦІЯ</span>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> 
+                <li class="footer-item"><a class="text-decoration-none text-dark" href="">Доставка і оплата</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark" href="">Карта сайту</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark" href="">Помічник</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark" href="">Проблеми із замовленням</a></li>
+                <li class="footer-item"><a class="text-decoration-none text-dark" href="">Кредитування</a></li></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                <span class="text-btn text-dark">БІЗНЕС</span>
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li class="footer-item"><a class="text-decoration-none text-dark" href="">Гектар маркет плейс</a></li>
+                  <li class="footer-item"><a class="text-decoration-none text-dark" href="">Оптовим клієнтам</a></li>
+                  <li class="footer-item"><a class="text-decoration-none text-dark" href="">Кабінет продавця</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                <span class="text-btn text-dark">КОНТАКТИ</span>
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <span>+38 (096) 733 733 0</span><br>
+                <span>+38 (096) 733 733 0</span><br>
+                <span>+38 (096) 733 733 0</span><br>
+                <span>+38 (096) 733 733 0</span>
+                <p class="mt-1">info@hectare.ua</p>
+                <div class="footer-socials">
+                  <a href=""><i class="fa-brands fa-youtube fs-4 social-footer text-dark"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram fs-4 social-footer text-dark"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook fs-4 social-footer text-dark"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>          
+      </div>  
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="assets/js/script.js"></script>
 <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+
 </body>
+
+
+    
 </html>
