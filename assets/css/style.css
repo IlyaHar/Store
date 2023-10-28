@@ -505,10 +505,10 @@ footer {
         display: flex;
         justify-content: start;
         position: fixed;
-        top: 70px; /* Устанавливайте здесь нужный вам отступ сверху */
+        top: 88px; /* Устанавливайте здесь нужный вам отступ сверху */
         left: -100%;
         width: 260px;
-        height: calc(100% - 70px); 
+        height: calc(100% - 88px); 
         overflow: auto;
         transition: all 0.3s ease;
     }
