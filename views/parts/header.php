@@ -19,12 +19,12 @@
             <div class="header-burger">
                 <span></span>
             </div>
-            <div class="logo-container"> <a class="text-decoration-none text-dark logo  " href="#">Авм <span class="logo-br">Агро</span></a></div>
+            <div class="logo-container"> <a class="text-decoration-none text-dark logo  " href="">Авм <span class="logo-br">Агро</span></a></div>
 
             <div class="search-container">
                 <input type="text" class="search-input" placeholder="Пошук...">
             </div>
-            <a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            <a class="text-decoration-none text-dark" href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
 
             <nav class="mobile-menu bg-light">
                 <ul class="mobile-list">
@@ -72,24 +72,25 @@
             </ul>
             <div class="phone">
                 <i class="fa-solid fa-phone"></i>
-                <a class="text-decoration-none text-dark fs-5 mx-2" href="#">+38 (096) 733 733 0</a>
+                <a class="text-decoration-none text-dark fs-5 mx-2" href="/">+38 (096) 733 733 0</a>
             </div>
         </div>
 </header>
+
 <div class="text-bg-dark fixed-theme">
     <div class="container menu ">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
             <div class="menu nav nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 d-">
                 <div class="catalog">
-                    <li> <a  class="text-decoration-none text-light navcatalog fs-5 catalog-button" id="catalog-button" href="#">
+                    <a class="text-decoration-none text-light navcatalog fs-5 catalog-button" id="catalog-button" href="">
                             <i class="fa-solid fa-bars mx-3 fs-5"></i>Каталог</a>
                         <ul class="menu nav-catalog nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 flex-column">
                             <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
-                                <a class="text-dark text-item " href="#"><i class="fa-solid fa-seedling fs-5 px-3"></i>ПОСІВНИЙ МАТЕРІАЛ</a>
+                                <a class="text-dark text-item " href="/"><i class="fa-solid fa-seedling fs-5 px-3"></i>ПОСІВНИЙ МАТЕРІАЛ</a>
                                 <i class="fa-solid fa-chevron-right arrow"></i>
                                 <ul class="subitems text-bg-dark ">
-                                    <li class="nav__item"><a class="text-light subitem" href="#">НАСІННЯ СОНЯШНИКА</a></li>
-                                    <li class=""><a class="text-light subitem" href="#">НАСІННЯ КУКУРУДЗИ</a></li>
+                                    <li class="nav__item"><a class="text-light subitem" href="/sunflowers " >НАСІННЯ СОНЯШНИКА</a></li>
+                                    <li class="nav__item"><a class="text-light subitem" href="#">НАСІННЯ КУКУРУДЗИ</a></li>
                                 </ul>
                             </li>
                             <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
@@ -97,7 +98,7 @@
                                     <i class="fa-brands fa-pagelines fs-5 px-3">
                                     </i>ЗАСОБИ ЗАХИСТУ РОСЛИН</a><i class="fa-solid fa-chevron-right arrow"></i>
                                 <ul class="subitems2 text-bg-dark ">
-                                    <li><a class="text-light subitem" href="#">ГЕРБІЦИДИ</a></li>
+                                    <li><a class="text-light subitem" href="">ГЕРБІЦИДИ</a></li>
                                     <li><a class="text-light subitem" href="#">ФУНГІЦИДИ</a></li>
                                     <li><a class="text-light subitem" href="#">ІНСЕКТИЦИДИ</a></li>
                                     <li><a class="text-light subitem" href="#">ПРОТРУЙНИКИ</a></li>
@@ -118,8 +119,6 @@
                                 </ul>
                             </li>
                         </ul>
-                    </li>
-                    </a>
                 </div>
             </div>
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 menu" role="search">
@@ -142,7 +141,7 @@
                     <a class="text-dark text-item " href="#"><i class="fa-solid fa-seedling fs-5 px-3"></i>ПОСІВНИЙ МАТЕРІАЛ</a>
                     <i class="fa-solid fa-chevron-right arrow"></i>
                     <ul class="subitems text-bg-dark ">
-                        <li class="nav__item"><a class="text-light subitem" href="#">НАСІННЯ СОНЯШНИКА</a></li>
+                        <li class="nav__item"><a class="text-light subitem" href="/sunflowers">НАСІННЯ СОНЯШНИКА</a></li>
                         <li class=""><a class="text-light subitem" href="#">НАСІННЯ КУКУРУДЗИ</a></li>
                     </ul>
                 </li>
@@ -173,10 +172,10 @@
                 </li>
             </ul>
             <div class="header-cards float-end d-flex">
-                <a class="text-decoration-none" href="#popular-product"><div class="header-card "><span class="text-dark text-decoration-none">Популярні товари</span></div></a>
-                <a class="text-decoration-none" href="#action-product"><div class="header-card "><span class="text-dark text-decoration-none">Акційні товари</span></div></a>
-                <a class="text-decoration-none" href="#new-product"><div class="header-card "><span class="text-dark text-decoration-none">Нові товари</span></div></a>
-                <a class="text-decoration-none" href="#discount"><div class="header-card "><span class="text-dark text-decoration-none">Уцінка</span></div></a>
+                <a class="text-decoration-none" href=".//#popular-product"><div class="header-card "><span class="text-dark text-decoration-none">Популярні товари</span></div></a>
+                <a class="text-decoration-none" href=".//#action-product"><div class="header-card "><span class="text-dark text-decoration-none">Акційні товари</span></div></a>
+                <a class="text-decoration-none" href=".//#new-product"><div class="header-card "><span class="text-dark text-decoration-none">Нові товари</span></div></a>
+                <a class="text-decoration-none" href=".//#discount"><div class="header-card "><span class="text-dark text-decoration-none">Уцінка</span></div></a>
             </div>
         </div>
     </div>

@@ -263,7 +263,7 @@ header:before {
     font-size: 35px;
 }
 
-.main-products {
+.main-products, .main-products2 {
     margin-top: 70px;
 }
 
@@ -342,7 +342,7 @@ header:before {
     
 }
 
-#loadMoreButton, #loadMoreButton2, #loadMoreButton3, #loadMoreButton4 {
+#loadMoreButton, #loadMoreButton2, #loadMoreButton3, #loadMoreButton4, #loadMoreButton5 {
     display: block;
     margin: 20px auto;
 }
@@ -356,9 +356,11 @@ header:before {
     display: flex !important;
 }
 
-.products-next2, .products-next3, .products-next4 {
+.products-next2, .products-next3, .products-next4, .products-next5 {
     display: none !important;
 }
+
+
 
 .products-next2.next2 {
     display: flex !important;
@@ -369,6 +371,10 @@ header:before {
 }
 
 .products-next4.next4 {
+    display: flex !important;
+}
+
+.products-next5.next5 {
     display: flex !important;
 }
 
@@ -385,6 +391,10 @@ header:before {
 }
 
 #loadMoreButton4.next4 {
+    display: none;
+}
+
+#loadMoreButton5.next5 {
     display: none;
 }
 
@@ -456,6 +466,11 @@ footer {
 }
 
 @media (max-width: 1040px) {
+
+    .main-products2 {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
     
     .menu {
         display: none;
@@ -505,10 +520,10 @@ footer {
         display: flex;
         justify-content: start;
         position: fixed;
-        top: 88px; /* Устанавливайте здесь нужный вам отступ сверху */
+        top: 70px; /* Устанавливайте здесь нужный вам отступ сверху */
         left: -100%;
         width: 260px;
-        height: calc(100% - 88px); 
+        height: calc(100% - 70px);
         overflow: auto;
         transition: all 0.3s ease;
     }
@@ -613,9 +628,6 @@ footer {
         margin-left: 5px;
         margin-right: 5px;
     }
-}
-
-@media (max-width: 992px) {
     .card {
         margin-left: 10px;
         margin-right: 10px;
@@ -635,26 +647,21 @@ footer {
         margin-top: 50px;
     }
 
-
     .accordion-button:not(.collapsed) {
         color: white !important;
         background-color: var(--bs-text-bg-dark) !important;
         box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color) !important;
-      }
+    }
 
-      .text-btn {
+    .text-btn {
         font-size: 15px;
-      }
+    }
 
-      .accordion-body {
+    .accordion-body {
         font-size: 14px;
-      }
-
-    
-
-   
-  
+    }
 }
+
 
 @media (max-width: 770px) {
    .card-container {
@@ -687,7 +694,7 @@ footer {
 }
 
 @media (max-width: 535px) {
-    .main-products {
+    .main-products, .main-products2 {
         text-align: center;
         margin-left: 0px;
     }

@@ -21,7 +21,7 @@
             <div class="column">
                 <ul>
                     <h5>ІНФОРМАЦІЯ</h5>
-                 <li class="footer-item"><a href="">Доставка і оплата</a></li>
+                 <li class="footer-item"><a href="/">Доставка і оплата</a></li>
                  <li class="footer-item"><a href="">Карта сайту</a></li>
                  <li class="footer-item"><a href="">Помічник</a></li>
                  <li class="footer-item"><a href="">Проблеми із замовленням</a></li>
@@ -119,8 +119,10 @@
             </div>
           </div>
       </div>
+
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-<script src="<?= ASSETS_URI ?>/js/script.js"></script>
 <script src="<?= ASSETS_URI ?>/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="<?= ASSETS_URI ?>/js/script.js"></script>
+<script src="<?= ASSETS_URI ?>/js/banner.js"></script>
 </body>
 </html>

@@ -1,10 +1,14 @@
 <?php
 
-const  DB_HOST = 'localhost';
+const  DB_HOST = 'database';
 
 const  DB_USER = 'root';
 
 const  DB_PASSWORD = 'store';
+
+const DATABASE = 'store';
+
+const DSN = 'mysql:host=' . DB_HOST . ';dbname=' . DATABASE;
 
 const APP_DIR = BASE_DIR . '/app/';
 
@@ -23,3 +27,14 @@ const ASSETS_DIR = BASE_DIR . '/assets';
 const IMAGES_URI = ASSETS_URI . '/img';
 
 const IMAGES_DIR = ASSETS_DIR . '/img';
+
+enum Tables: string
+{
+    case Content = 'content';
+    case Users = 'users';
+
+    case Orders = 'orders';
+    case Products = 'products';
+
+    case OrderProducts = 'order_products';
+}

@@ -10,10 +10,16 @@ require_once BASE_DIR . '/vendor/autoload.php';
 require_once BASE_DIR . '/configs/constants.php';
 
 try {
-
+    require_once BASE_DIR . '/configs/DB.php';
     require_once APP_DIR . 'index.php';
     require_once BASE_DIR . '/configs/router.php';
 
-} catch (Exception $exception) {
+
+
+} catch (PDOException $exception) {
+    d('PDOException');
+    d($exception->getCode() . ' - ' . $exception->getMessage());
+}
+catch (Exception $exception) {
     d($exception->getCode() . ' - ' . $exception->getMessage());
 }
