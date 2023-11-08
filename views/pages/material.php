@@ -27,7 +27,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="/aldazorst" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/aldazor.jpg" alt="">
+                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Новинка! Насіння соняшника Альдазор (фракція стандарт), 7 рас вовчка, 50 гр. гербіциду Гранстар</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -36,7 +36,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="/impulse" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/impulse.avif" alt="">
+                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Насіння соняшника “АР Імпульс”, фракції Екстра, 109-112 днів</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -47,7 +47,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="/impulsest" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/impulse.avif" alt="">
+                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Насіння соняшника “АР Імпульс”, фракції Стандарт, 109-112 днів</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -63,19 +63,19 @@ require PARTS_DIR . 'header.php';
                 </a>
             </div>
             <div class="card">
-                <a href="/castelo" class="text-dark text-decoration-none">
+                <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/castelo.webp" alt="">
-                        <h6 class="text-center mt-3">Насіння соняшнику Кастело, Mirasol</h6>
+                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
                 </a>
             </div>
             <div class="card">
-                <a href="/bomond" class="text-dark text-decoration-none">
+                <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/bomond.jpeg" alt="">
-                        <h6 class="text-center mt-3">Насіння соняшника Бомонд під гербіцид Гранстар, 7 рас вовчка, фракції Преміум</h6>
+                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
                 </a>
@@ -85,19 +85,19 @@ require PARTS_DIR . 'header.php';
 
         <div class="products-next5" id="products-next-container">
             <div class="card">
-                <a href="/rivas" class="text-dark text-decoration-none">
+                <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/rivas.webp" alt="">
-                        <h6 class="text-center mt-3">Насіння соняшнику гібрид Rivas A-F середньоранній фракція Екстра</h6>
+                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
                 </a>
             </div>
             <div class="card">
-                <a href="/banano" class="text-dark text-decoration-none">
+                <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/rivas.webp" alt="">
-                        <h6 class="text-center mt-3">Насіння соняшнику гібрид Banano середньоранній фракція Екстра</h6>
+                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
                 </a>

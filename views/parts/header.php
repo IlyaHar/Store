@@ -41,7 +41,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample">
-                                <li class="sub-item "><a class="header-link top-items fs-5" href="#">Посівний матеріал</a></li>
+                                <li class="sub-item "><a class="header-link top-items fs-5" href="/material">Посівний матеріал</a></li>
                                 <li class="sub-item"><a class="header-link top-items fs-5" href="#">Засоби захисту рослин</a></li>
                                 <li class="sub-item"><a class="header-link top-items fs-5" href="#">Добрива</a></li>
                             </div>
@@ -50,6 +50,7 @@
                         <li class="link-header"><a class="header-link top-items fs-5" href="#action-product">Акційні товари</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#new-product">Нові товари</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#discount">Уцінка</a></li>
+                        <li class="link-header"><a href="/" class="header-link top-items fs-5">Головна</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Кошик</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Доставка</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Щоденник</a></li>
@@ -65,6 +66,7 @@
 
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 mx-5 ">
+                <li class="item-link"><a href="/" class="nav-link px-2 text-dark top-item">Головна</a></li>
                 <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Помічники</a></li>
                 <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item ">Контакти</a></li>
                 <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item ">Щоденник</a></li>
@@ -90,7 +92,7 @@
                                 <i class="fa-solid fa-chevron-right arrow"></i>
                                 <ul class="subitems text-bg-dark ">
                                     <li class="nav__item"><a class="text-light subitem" href="/sunflowers " >НАСІННЯ СОНЯШНИКА</a></li>
-                                    <li class="nav__item"><a class="text-light subitem" href="#">НАСІННЯ КУКУРУДЗИ</a></li>
+                                    <li class="nav__item"><a class="text-light subitem" href="/corn">НАСІННЯ КУКУРУДЗИ</a></li>
                                 </ul>
                             </li>
                             <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
@@ -98,7 +100,7 @@
                                     <i class="fa-brands fa-pagelines fs-5 px-3">
                                     </i>ЗАСОБИ ЗАХИСТУ РОСЛИН</a><i class="fa-solid fa-chevron-right arrow"></i>
                                 <ul class="subitems2 text-bg-dark ">
-                                    <li><a class="text-light subitem" href="">ГЕРБІЦИДИ</a></li>
+                                    <li><a class="text-light subitem" href="/herbicides">ГЕРБІЦИДИ</a></li>
                                     <li><a class="text-light subitem" href="#">ФУНГІЦИДИ</a></li>
                                     <li><a class="text-light subitem" href="#">ІНСЕКТИЦИДИ</a></li>
                                     <li><a class="text-light subitem" href="#">ПРОТРУЙНИКИ</a></li>
@@ -115,7 +117,7 @@
                                     </i>ДОБРИВА</a>
                                 <i class="fa-solid fa-chevron-right arrow"></i>
                                 <ul class="subitems text-bg-dark">
-                                    <li><a class="text-light subitem" href="#">МІКРОДОБРИВА</a></li>
+                                    <li><a class="text-light subitem" href="/fertilizers">МІКРОДОБРИВА</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -142,7 +144,7 @@
                     <i class="fa-solid fa-chevron-right arrow"></i>
                     <ul class="subitems text-bg-dark ">
                         <li class="nav__item"><a class="text-light subitem" href="/sunflowers">НАСІННЯ СОНЯШНИКА</a></li>
-                        <li class=""><a class="text-light subitem" href="#">НАСІННЯ КУКУРУДЗИ</a></li>
+                        <li class=""><a class="text-light subitem" href="/corn">НАСІННЯ КУКУРУДЗИ</a></li>
                     </ul>
                 </li>
                 <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
@@ -150,7 +152,7 @@
                         <i class="fa-brands fa-pagelines fs-5 px-3">
                         </i>ЗАСОБИ ЗАХИСТУ РОСЛИН</a><i class="fa-solid fa-chevron-right arrow"></i>
                     <ul class="subitems2 text-bg-dark ">
-                        <li><a class="text-light subitem" href="#">ГЕРБІЦИДИ</a></li>
+                        <li><a class="text-light subitem" href="/herbicides">ГЕРБІЦИДИ</a></li>
                         <li><a class="text-light subitem" href="#">ФУНГІЦИДИ</a></li>
                         <li><a class="text-light subitem" href="#">ІНСЕКТИЦИДИ</a></li>
                         <li><a class="text-light subitem" href="#">ПРОТРУЙНИКИ</a></li>
@@ -167,7 +169,7 @@
                         </i>ДОБРИВА</a>
                     <i class="fa-solid fa-chevron-right arrow"></i>
                     <ul class="subitems text-bg-dark">
-                        <li><a class="text-light subitem" href="#">МІКРОДОБРИВА</a></li>
+                        <li><a class="text-light subitem" href="/fertilizers">МІКРОДОБРИВА</a></li>
                     </ul>
                 </li>
             </ul>

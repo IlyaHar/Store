@@ -4,8 +4,8 @@
             <div class="columns d-flex justify-content-center">
                 <div class="column">
                     <h5>ГРАФІК РОБОТИ</h5>
-                    <span>Пн-Пт з 8:00-19:00</span><br>
-                    <span>Сб-Нд з 9:00-15:00</span>
+                    <span>Пн-Пт з 8:00-21:00</span><br>
+                    <span>Сб-Нд з 9:00-18:00</span>
                 </div>
                 <div class="column">
                    <ul>
@@ -60,8 +60,8 @@
             </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body"><span>Пн-Пт з 8:00-19:00</span><br>
-                <span>Сб-Нд з 9:00-15:00</span></div>
+            <div class="accordion-body"><span>Пн-Пт з 8:00-21:00</span><br>
+                <span>Сб-Нд з 9:00-18:00</span></div>
           </div>
         </div>
         <div class="accordion-item">

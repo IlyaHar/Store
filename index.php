@@ -23,3 +23,4 @@ try {
 catch (Exception $exception) {
     d($exception->getCode() . ' - ' . $exception->getMessage());
 }
+

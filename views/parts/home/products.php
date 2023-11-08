@@ -5,7 +5,7 @@
     </div>
     <div class="card-container d-flex justify-content-center" id="products-container">
         <div class="card">
-            <a href="" class="text-dark text-decoration-none">
+            <a href="/syngenta" class="text-dark text-decoration-none">
                 <div class="card-content">
                     <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
                     <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
