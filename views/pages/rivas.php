@@ -9,7 +9,7 @@ require PARTS_DIR . 'header.php';
             <img class="image-main1" src="<?= IMAGES_URI ?>/rivas.webp" alt="">
             <section class="text-product  ">
                 <h5 class="">Насіння соняшнику гібрид Rivas A-F середньоранній фракція Екстра</h5>
-                <h4 class="text-danger mt-3">3600 грн</h4>
+                <h4 class="text-danger mt-3">2800 грн</h4>
                 <div class="product-box-desc">
                     <div class="inner-box-desc">
 
@@ -36,7 +36,7 @@ require PARTS_DIR . 'header.php';
                                 <div class="modal-body">
                                     <div class="phone1 text-center">
                                         <i class="fa-solid fa-phone"></i>
-                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (096) 733 733 0</a>
+                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 609 7</a>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ require PARTS_DIR . 'header.php';
                     </div>
             </section>
         </div>
-        <div class="p-slap__content">
+        <div class="p-slap__content mt-5">
             <p><b>Вага мішка вказана орієнтовно. Залежить від року врожаю</b></p> <ul><li>Врожай 2022р.</li> <li>Гібрид соняшника стійкий до 6 рас вовчка</li> <li>Забезпечує високі врожаї в зонах недостатнього зволоження</li> <li>Фракция - ЭКСТР<b>А</b></li>
             </ul><p>Середньоранній, інтенсивного типу</p> <p>Rivas має високу стійкість до посухи в поєднанні з високою пластичністю.</p> <p>Період вегетації 100 - 107 днів</p> <p>Вміст олії: 49 - 51%</p> <p>Потенціал урожайності 58 ц/га допомагає розкрити якісне листкове живлення</p> <p>Висота рослин 150 - 160 см</p> <p>Кошик - середнього розміру, добре виповнений</p> <p>Маса 1000 насінин 68 - 75 г</p> <p>Рекомендована густота посіву:</p> <ul><li>Зона недостатнього зволоження 50 - 60 тис/га</li> <li>Зона достатнього зволоження 60 - 65 тис/га</li>
             </ul>  </div>

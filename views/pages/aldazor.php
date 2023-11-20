@@ -5,8 +5,8 @@ require PARTS_DIR . 'header.php';
         <div class="product d-flex justify-content-center  ">
             <img class="image-main1" src="<?= IMAGES_URI ?>/aldazor.jpg" alt="">
             <section class="text-product  ">
-                <h5 class="">Насіння соняшника Альдазор (фракція преміум), 7 рас вовчка, 50 гр. гербіциду Гранстар</h5>
-                <h4 class="text-danger mt-3">3600 грн</h4>
+                <h5 class="">Насіння соняшника Альдазор (фракція екстра), 7 рас вовчка, 50 гр. гербіциду Гранстар</h5>
+                <h4 class="text-danger mt-3">4300 грн</h4>
                 <div class="product-box-desc">
                     <div class="inner-box-desc">
 
@@ -33,7 +33,7 @@ require PARTS_DIR . 'header.php';
                                 <div class="modal-body">
                                     <div class="phone1 text-center">
                                         <i class="fa-solid fa-phone"></i>
-                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (096) 733 733 0</a>
+                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 609 7</a>
                                     </div>
                                 </div>
                             </div>

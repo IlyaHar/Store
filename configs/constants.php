@@ -28,13 +28,3 @@ const IMAGES_URI = ASSETS_URI . '/img';
 
 const IMAGES_DIR = ASSETS_DIR . '/img';
 
-enum Tables: string
-{
-    case Content = 'content';
-    case Users = 'users';
-
-    case Orders = 'orders';
-    case Products = 'products';
-
-    case OrderProducts = 'order_products';
-}

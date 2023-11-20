@@ -12,54 +12,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-<header class="p-3 text-bg-light d-flex ">
+<header class="p-3 bg-white d-flex ">
     <div class="container">
 
-        <div class="d-flex flex-wrap align-items-center justify-content-center ">
+        <div class="d-flex flex-wrap align-items-center justify-content-start ">
             <div class="header-burger">
                 <span></span>
             </div>
-            <div class="logo-container"> <a class="text-decoration-none text-dark logo  " href="">Авм <span class="logo-br">Агро</span></a></div>
 
-            <div class="search-container">
-                <input type="text" class="search-input" placeholder="Пошук...">
-            </div>
-            <a class="text-decoration-none text-dark" href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+            <div class="logo-container"> <a class="text-decoration-none text-dark logo  " href=""><img width="150px" src="<?= IMAGES_URI ?>/logo.jpeg"></a></div>
 
-            <nav class="mobile-menu bg-light">
+<!--         <div class="search-container">-->
+<!--                <input type="text" class="search-input" placeholder="Пошук...">-->
+<!--            </div>-->
+           <!-- <a class="text-decoration-none text-dark" href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+-->
+            <nav class="mobile-menu bg-white">
                 <ul class="mobile-list">
 
-                    <div class="menu-buttons d-flex justify-content-center align-items-center mt-3">
+                   <!-- <div class="menu-buttons d-flex justify-content-center align-items-center mt-3">
                         <button type="button" class="btn btn-dark mx-2">Увійти</button>
                         <button type="button" class="btn btn-warning ">Зареєструватися</button>
-                    </div>
+                    </div>-->
                     <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button bg-light text-black fs-5 border-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <button class="accordion-button bg-white text-black fs-5 border-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     <a class="text-decoration-none text-black" href="">Категорії</a>
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample">
-                                <li class="sub-item "><a class="header-link top-items fs-5" href="/material">Посівний матеріал</a></li>
-                                <li class="sub-item"><a class="header-link top-items fs-5" href="#">Засоби захисту рослин</a></li>
-                                <li class="sub-item"><a class="header-link top-items fs-5" href="#">Добрива</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/sunflowers " >Насіння соняшника</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/corn">Насіння кукурудзи</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/soya">Соя</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/herbicides">Гербіциди</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/fungicides">Фунгіциди</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/insecticides">Інсектициди</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/poisoners">Протруйники</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/adhesives">Прилипачі</a></li>
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/desiccants">Десиканти</a></li>
+
+                                <li class="link-header"><a class="header-link top-items fs-5" href="/fertilizers">Мікродобрива</a></li>
                             </div>
                         </div>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#popular-product">Популярні товари</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#action-product">Акційні товари</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#new-product">Нові товари</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#discount">Уцінка</a></li>
+                        <li class="link-header"><a class="header-link top-items fs-5" href=".//#popular-product">Популярні товари</a></li>
+                       <!-- <li class="link-header"><a class="header-link top-items fs-5" href=".//#action-product">Акційні товари</a></li>
+                        <li class="link-header"><a class="header-link top-items fs-5" href=".//#new-product">Нові товари</a></li>
+                        <li class="link-header"><a class="header-link top-items fs-5" href=".//#discount">Уцінка</a></li>-->
                         <li class="link-header"><a href="/" class="header-link top-items fs-5">Головна</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#">Кошик</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#">Доставка</a></li>
+                        <!--<li class="link-header"><a class="header-link top-items fs-5" href="#">Кошик</a></li>-->
+                      <!--  <li class="link-header"><a class="header-link top-items fs-5" href="#">Доставка</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Щоденник</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Виробники</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#">Помічники</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href="#">Контакти</a></li>
+                        <li class="link-header"><a class="header-link top-items fs-5" href="#">Помічники</a></li>-->
+                        <li class="link-header"><a class="header-link top-items fs-5" href=".//#contacts-mobile">Контакти</a></li>
                         <div class="phone-mobile mt-3 mx-4">
                             <i class="fa-solid fa-phone"></i>
-                            <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (096) 733 733 0</a>
+                            <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (098) 531 609 7</a>
                         </div>
                 </ul>
             </nav>
@@ -67,14 +76,14 @@
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 mx-5 ">
                 <li class="item-link"><a href="/" class="nav-link px-2 text-dark top-item">Головна</a></li>
-                <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Помічники</a></li>
-                <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item ">Контакти</a></li>
-                <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item ">Щоденник</a></li>
-                <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Виробники</a></li>
+         <!--       <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Помічники</a></li>-->
+                <li class="item-link"><a href="#contacts" class="nav-link px-2 text-dark top-item ">Контакти</a></li>
+       <!--         <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item ">Щоденник</a></li>
+                <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Виробники</a></li>-->
             </ul>
             <div class="phone">
                 <i class="fa-solid fa-phone"></i>
-                <a class="text-decoration-none text-dark fs-5 mx-2" href="/">+38 (096) 733 733 0</a>
+                <a class="text-decoration-none text-dark fs-5 mx-2" href="/">+38 (098) 531 609 7</a>
             </div>
         </div>
 </header>
@@ -93,6 +102,7 @@
                                 <ul class="subitems text-bg-dark ">
                                     <li class="nav__item"><a class="text-light subitem" href="/sunflowers " >НАСІННЯ СОНЯШНИКА</a></li>
                                     <li class="nav__item"><a class="text-light subitem" href="/corn">НАСІННЯ КУКУРУДЗИ</a></li>
+                                    <li class="nav__item"><a class="text-light subitem" href="/soya">СОЯ</a></li>
                                 </ul>
                             </li>
                             <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
@@ -101,15 +111,11 @@
                                     </i>ЗАСОБИ ЗАХИСТУ РОСЛИН</a><i class="fa-solid fa-chevron-right arrow"></i>
                                 <ul class="subitems2 text-bg-dark ">
                                     <li><a class="text-light subitem" href="/herbicides">ГЕРБІЦИДИ</a></li>
-                                    <li><a class="text-light subitem" href="#">ФУНГІЦИДИ</a></li>
-                                    <li><a class="text-light subitem" href="#">ІНСЕКТИЦИДИ</a></li>
-                                    <li><a class="text-light subitem" href="#">ПРОТРУЙНИКИ</a></li>
-                                    <li><a class="text-light subitem" href="#">РОДЕНТИЦИДИ</a></li>
-                                    <li><a class="text-light subitem nonem" href="#">ПРИЛИПАЧІ</a></li>
-                                    <li><a class="text-light subitem nonem" href="#">ДЕСИКАНТИ</a></li>
-                                    <li><a class="text-light subitem nonem" href="#">ФУМІГАНТИ</a></li>
-                                    <li><a class="text-light subitem nonem" href="#">РЕГУЛЯТОРИ РОСТУ</a></li>
-                                    <li><a class="text-light subitem nonem" href="#">ІНОКУЛЯНТИ</a></li>
+                                    <li><a class="text-light subitem" href="/fungicides">ФУНГІЦИДИ</a></li>
+                                    <li><a class="text-light subitem" href="/insecticides">ІНСЕКТИЦИДИ</a></li>
+                                    <li><a class="text-light subitem" href="/poisoners">ПРОТРУЙНИКИ</a></li>
+                                    <li><a class="text-light subitem nonem" href="/adhesives">ПРИЛИПАЧІ</a></li>
+                                    <li><a class="text-light subitem nonem" href="/desiccants">ДЕСИКАНТИ</a></li>
                                 </ul>
                             </li>
                             <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
@@ -123,14 +129,14 @@
                         </ul>
                 </div>
             </div>
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 menu" role="search">
+            <!--<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 menu" role="search">
                 <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-            </form>
+            </form>-->
 
-            <div class="text-end">
+         <!--   <div class="text-end">
                 <button type="button" class="btn btn-outline-light me-2 ">Увійти</button>
                 <button type="button" class="btn btn-warning">Зареєструватися</button>
-            </div>
+            </div>-->
         </div>
     </div>
 
@@ -145,6 +151,7 @@
                     <ul class="subitems text-bg-dark ">
                         <li class="nav__item"><a class="text-light subitem" href="/sunflowers">НАСІННЯ СОНЯШНИКА</a></li>
                         <li class=""><a class="text-light subitem" href="/corn">НАСІННЯ КУКУРУДЗИ</a></li>
+                        <li class="nav__item"><a class="text-light subitem" href="/soya">СОЯ</a></li>
                     </ul>
                 </li>
                 <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
@@ -153,15 +160,11 @@
                         </i>ЗАСОБИ ЗАХИСТУ РОСЛИН</a><i class="fa-solid fa-chevron-right arrow"></i>
                     <ul class="subitems2 text-bg-dark ">
                         <li><a class="text-light subitem" href="/herbicides">ГЕРБІЦИДИ</a></li>
-                        <li><a class="text-light subitem" href="#">ФУНГІЦИДИ</a></li>
-                        <li><a class="text-light subitem" href="#">ІНСЕКТИЦИДИ</a></li>
-                        <li><a class="text-light subitem" href="#">ПРОТРУЙНИКИ</a></li>
-                        <li><a class="text-light subitem" href="#">РОДЕНТИЦИДИ</a></li>
-                        <li><a class="text-light subitem nonem" href="#">ПРИЛИПАЧІ</a></li>
-                        <li><a class="text-light subitem nonem" href="#">ДЕСИКАНТИ</a></li>
-                        <li><a class="text-light subitem nonem" href="#">ФУМІГАНТИ</a></li>
-                        <li><a class="text-light subitem nonem" href="#">РЕГУЛЯТОРИ РОСТУ</a></li>
-                        <li><a class="text-light subitem nonem" href="#">ІНОКУЛЯНТИ</a></li>
+                        <li><a class="text-light subitem" href="/fungicides">ФУНГІЦИДИ</a></li>
+                        <li><a class="text-light subitem" href="/insecticides">ІНСЕКТИЦИДИ</a></li>
+                        <li><a class="text-light subitem" href="/poisoners">ПРОТРУЙНИКИ</a></li>
+                        <li><a class="text-light subitem nonem" href="/adhesives">ПРИЛИПАЧІ</a></li>
+                        <li><a class="text-light subitem nonem" href="/desiccants">ДЕСИКАНТИ</a></li>
                     </ul>
                 </li>
                 <li class=" item nav-item text-bg-light d-flex justify-content-start align-items-center">
@@ -175,9 +178,9 @@
             </ul>
             <div class="header-cards float-end d-flex">
                 <a class="text-decoration-none" href=".//#popular-product"><div class="header-card "><span class="text-dark text-decoration-none">Популярні товари</span></div></a>
-                <a class="text-decoration-none" href=".//#action-product"><div class="header-card "><span class="text-dark text-decoration-none">Акційні товари</span></div></a>
-                <a class="text-decoration-none" href=".//#new-product"><div class="header-card "><span class="text-dark text-decoration-none">Нові товари</span></div></a>
-                <a class="text-decoration-none" href=".//#discount"><div class="header-card "><span class="text-dark text-decoration-none">Уцінка</span></div></a>
+        <!--      <!--  <a class="text-decoration-none" href=".//#action-product"><div class="header-card "><span class="text-dark text-decoration-none">Акційні товари</span></div></a>-->
+            <!--    <a class="text-decoration-none" href=".//#new-product"><div class="header-card "><span class="text-dark text-decoration-none">Нові товари</span></div></a>-->
+             <!--   <a class="text-decoration-none" href=".//#discount"><div class="header-card "><span class="text-dark text-decoration-none">Уцінка</span></div></a>-->
             </div>
         </div>
     </div>

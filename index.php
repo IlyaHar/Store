@@ -13,9 +13,7 @@ try {
     require_once BASE_DIR . '/configs/DB.php';
     require_once APP_DIR . 'index.php';
     require_once BASE_DIR . '/configs/router.php';
-
-
-
+    
 } catch (PDOException $exception) {
     d('PDOException');
     d($exception->getCode() . ' - ' . $exception->getMessage());

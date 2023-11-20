@@ -8,7 +8,7 @@ require PARTS_DIR . 'header.php';
             <img class="image-main1" src="<?= IMAGES_URI ?>/сreative.png" alt="">
             <section class="text-product  ">
                 <h5 class="">Насіння кукурудзи ЕС КРЕАТИВ ( Lidea ) ФАО: 300</h5>
-                <h4 class="text-danger mt-3">3600 грн</h4>
+                <h4 class="text-danger mt-3">3800 грн</h4>
                 <div class="product-box-desc">
                     <div class="inner-box-desc">
 
@@ -35,7 +35,7 @@ require PARTS_DIR . 'header.php';
                                 <div class="modal-body">
                                     <div class="phone1 text-center">
                                         <i class="fa-solid fa-phone"></i>
-                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (096) 733 733 0</a>
+                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 609 7</a>
                                     </div>
                                 </div>
                             </div>

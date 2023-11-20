@@ -151,6 +151,10 @@ ul li:hover .subitems {
     max-width: 100% !important;
 }
 
+.image-banner {
+    border: solid 2px black;
+}
+
 .header-card {
     margin-left: 20px;
     margin-right: 20px;
@@ -376,6 +380,7 @@ header:before {
 
 .products-next5.next5 {
     display: flex !important;
+    justify-content: center;
 }
 
 #loadMoreButton.next {
@@ -464,16 +469,79 @@ footer {
     max-width: 500px;
 }
 
-td, th {
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: solid silver 1px !important;
+table {
+    margin-top: 20px;
+}
+
+tbody {
+    text-align: center;
+    vertical-align: center;
+}
+
+td {
+    margin-top: 10px;
 }
 
 .cs-title__page-content {
     padding-left: 20px;
 }
+
+
+
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.line_prop {
+    display: flex;
+}
+
+.right_line_prop {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.left_line_prop::after {
+    content: ":";
+
+}
+
+.left_line_prop {
+    width: 150px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+ol li {
+    list-style: inherit;
+    margin-top: 15px;
+}
+.text-card {
+    font-size: 12.5px;
+    text-align: center;
+}
+
+.td2 {
+    border: 1px solid #939393 !important;
+    padding: 3px !important;
+    font-family: century !important;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+
+.mobile-phone {
+    display: none;
+}
+
+
 @media (max-width: 1400px) {
     .column-contacts {
         margin-left: 30px;
@@ -499,7 +567,7 @@ td, th {
 @media (max-width: 1040px) {
 
     .main-products2 {
-        margin-top: 100px;
+        margin-top: 120px;
         margin-left: 30px;
     }
     
@@ -551,10 +619,10 @@ td, th {
         display: flex;
         justify-content: start;
         position: fixed;
-        top: 70px; /* Устанавливайте здесь нужный вам отступ сверху */
+        top: 100px; /* Устанавливайте здесь нужный вам отступ сверху */
         left: -100%;
         width: 260px;
-        height: calc(100% - 70px);
+        height: calc(100% - 100px);
         overflow: auto;
         transition: all 0.3s ease;
     }
@@ -570,7 +638,10 @@ td, th {
         height: 20px; /* Здесь установите нужный вам отступ сверху */
     }
 
-  
+
+
+
+
     .header-burger {
         display: block;
         position: relative;
@@ -615,6 +686,10 @@ td, th {
     .header-burger.actives:before {
         transform: rotate(45deg);
         top: 9px;
+    }
+
+    .image-banner {
+        margin-top: 30px;
     }
 
 
@@ -667,6 +742,7 @@ td, th {
 
     .main-products {
         margin-left: 20px;
+
     }
 
     footer {
@@ -692,11 +768,22 @@ td, th {
         font-size: 14px;
     }
 
-    .product {
-        margin-top: 100px !important;
-    }
-}
 
+    .text-product {
+        padding-top: 20px !important; ;
+    }
+
+    .image-main1 {
+        margin-top: 50px;
+    }
+
+    .left_line_prop {
+        width: 100px;
+        margin-top: 20px;
+        font-weight: 900;
+    }
+
+}
 
 @media (max-width: 770px) {
    .card-container {
@@ -765,6 +852,13 @@ td, th {
     }
 
    
+}
+
+@media (max-width: 460px) {
+    td span {
+        font-size: 11px !important;
+    }
+
 }
 
 

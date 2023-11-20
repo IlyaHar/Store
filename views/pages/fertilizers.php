@@ -7,9 +7,18 @@ require PARTS_DIR . 'header.php';
         </div>
         <div class="card-container d-flex justify-content-center" id="products-container">
             <div class="card">
+                <a href="/ekoflow" class="text-dark text-decoration-none">
+                    <div class="card-content">
+                        <img class="image-main" src="<?= IMAGES_URI ?>/ekoflow.jpeg" alt="">
+                        <h6 class="text-center mt-3">EKO FLOW</h6>
+                        <p class="text-center text-danger price-card">190 грн / л</p>
+                    </div>
+                </a>
+            </div>
+        <!--    <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -18,7 +27,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -27,16 +36,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
-                        <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
-                        <p class="text-center text-danger price-card">330.60 грн / л</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="" class="text-dark text-decoration-none">
-                    <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -47,7 +47,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -56,7 +56,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -65,7 +65,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -74,7 +74,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -87,7 +87,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -96,7 +96,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -105,7 +105,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -114,7 +114,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -125,7 +125,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -134,7 +134,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -143,7 +143,7 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
@@ -152,12 +152,12 @@ require PARTS_DIR . 'header.php';
             <div class="card">
                 <a href="" class="text-dark text-decoration-none">
                     <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/syngenta.jpg" alt="">
+                        <img class="image-main" src="<?php /*= IMAGES_URI */?>/syngenta.jpg" alt="">
                         <h6 class="text-center mt-3">Соняшник Сурелі Сінгента</h6>
                         <p class="text-center text-danger price-card">330.60 грн / л</p>
                     </div>
                 </a>
-            </div>
+            </div>-->
         </div>
     </div>
 <?php
