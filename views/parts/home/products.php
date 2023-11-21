@@ -83,9 +83,7 @@
             </a>
         </div>
     </div>
-    <button id="loadMoreButton" class="btn btn-primary btn-next">Подивитися ще</button>
-
-    <div class="products-next" id="products-next-container">
+    <div class="card-container d-flex justify-content-center " id="products-container">
         <div class="card">
             <a href="/pristar" class="text-dark text-decoration-none">
                 <div class="card-content">
@@ -122,19 +120,20 @@
                 </div>
             </a>
         </div>
-        <div class="card-container d-flex justify-content-center" id="products-container">
-            <div class="card">
-                <a href="/geliantex" class="text-dark text-decoration-none">
-                    <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/geliantex.jpg" alt="">
-                        <h6 class="text-center mt-3">ГЕЛІАНТЕКС</h6>
-                        <p class="text-center text-danger price-card">15500 грн / л</p>
-                    </div>
-                </a>
-            </div>
+        <div class="card">
+            <a href="/geliantex" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="<?= IMAGES_URI ?>/geliantex.jpg" alt="">
+                    <h6 class="text-center mt-3">ГЕЛІАНТЕКС</h6>
+                    <p class="text-center text-danger price-card">15500 грн / л</p>
+                </div>
+            </a>
         </div>
     </div>
 </div>
+
+
+
    <!-- <div class="products-next" id="products-next-container">
         <div class="card">
             <a href="" class="text-dark text-decoration-none">

@@ -35,7 +35,7 @@
                     <li class="footer-item"><a href="">Кабінет продавця</a></li>
                 </ul>
             </div>-->
-            <div class="column-contacts">
+            <div id="contacts" class="column-contacts">
                 <h5>КОНТАКТИ</h5>
                 <span>+38 (098) 531 609 7</span><br>
                 <p class="mt-1">
@@ -95,7 +95,7 @@
                 <li class="footer-item"><a class="text-decoration-none text-dark" href="">Кредитування</a></li></div>
         </div>
     </div>-->
-    <div class="accordion-item">
+    <div id="contacts-mobile" class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                 <span class="text-btn text-dark">КОНТАКТИ</span>

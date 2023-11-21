@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>АВМагро</title>
     <link rel="stylesheet" href="<?= ASSETS_URI ?>/css/style.css">
     <link rel="stylesheet" href="<?= ASSETS_URI ?>/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -65,7 +65,7 @@
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Щоденник</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Виробники</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Помічники</a></li>-->
-                        <li class="link-header"><a class="header-link top-items fs-5" href=".//#contacts-mobile">Контакти</a></li>
+                        <li class="link-header"><a class="header-link top-items fs-5" href="#contacts-mobile">Контакти</a></li>
                         <div class="phone-mobile mt-3 mx-4">
                             <i class="fa-solid fa-phone"></i>
                             <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (098) 531 609 7</a>
