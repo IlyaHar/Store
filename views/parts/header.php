@@ -56,11 +56,13 @@
                             </div>
                         </div>
                         <li class="link-header"><a class="header-link top-items fs-5" href=".//#popular-product">Популярні товари</a></li>
-                       <!-- <li class="link-header"><a class="header-link top-items fs-5" href=".//#action-product">Акційні товари</a></li>
-                        <li class="link-header"><a class="header-link top-items fs-5" href=".//#new-product">Нові товари</a></li>
+                       <li class="link-header"><a class="header-link top-items fs-5" href=".//#action-product">Акційні товари</a></li>
+                     <!--   <li class="link-header"><a class="header-link top-items fs-5" href=".//#new-product">Нові товари</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href=".//#discount">Уцінка</a></li>-->
                         <li class="link-header"><a href="/" class="header-link top-items fs-5">Головна</a></li>
-                        <!--<li class="link-header"><a class="header-link top-items fs-5" href="#">Кошик</a></li>-->
+                        <li class="link-header"><a href="/aboutus" class="header-link top-items fs-5">О нас</a></li>
+                        <li class="link-header"><a href="/delivery" class="header-link top-items fs-5">Доставка</a></li>
+                        <li class="link-header"><a class="header-link top-items fs-5" href="/payment">Оплата</a></li>
                       <!--  <li class="link-header"><a class="header-link top-items fs-5" href="#">Доставка</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Щоденник</a></li>
                         <li class="link-header"><a class="header-link top-items fs-5" href="#">Виробники</a></li>
@@ -68,23 +70,38 @@
                         <li class="link-header"><a class="header-link top-items fs-5" href="#contacts-mobile">Контакти</a></li>
                         <div class="phone-mobile mt-3 mx-4">
                             <i class="fa-solid fa-phone"></i>
-                            <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (098) 531 609 7</a>
+                            <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (098) 531 6097</a>
                         </div>
+                        <div class="phone-mobile mt-3 mx-4">
+                            <i class="fa-brands fa-telegram " style="color: #4dbbff;"></i>
+                            <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (063) 896 0419</a><i class="fa-brands fa-viber " style="color: #c14dff;"></i>
+
+                        </div>
+
                 </ul>
             </nav>
 
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 mx-5 ">
                 <li class="item-link"><a href="/" class="nav-link px-2 text-dark top-item">Головна</a></li>
-         <!--       <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Помічники</a></li>-->
+                <li class="item-link"><a href="/aboutus" class="nav-link px-2 text-dark top-item">О нас</a></li>
+                <li class="item-link"><a href="/delivery" class="nav-link px-2 text-dark top-item">Доставка</a></li>
+                <li class="item-link"><a href="/payment" class="nav-link px-2 text-dark top-item">Оплата</a></li>
+
                 <li class="item-link"><a href="#contacts" class="nav-link px-2 text-dark top-item ">Контакти</a></li>
        <!--         <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item ">Щоденник</a></li>
                 <li class="item-link"><a href="#" class="nav-link px-2 text-dark top-item">Виробники</a></li>-->
             </ul>
-            <div class="phone">
+            <div class="phone d-flex flex-column">
+                <div class="phone">
                 <i class="fa-solid fa-phone"></i>
-                <a class="text-decoration-none text-dark fs-5 mx-2" href="/">+38 (098) 531 609 7</a>
-            </div>
+                <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 6097</a>
+                </div>
+                <div class="phone">
+                <i class="fa-brands fa-telegram " style="color: #4dbbff;"></i>
+                <a class="text-decoration-none text-dark fs-5 pb-3 " href="#">+38 (063) 896 0419</a><i class="fa-brands fa-viber mx-1" style="color: #c14dff;"></i>
+                </div>
+                </div>
         </div>
 </header>
 
@@ -178,7 +195,7 @@
             </ul>
             <div class="header-cards float-end d-flex">
                 <a class="text-decoration-none" href=".//#popular-product"><div class="header-card "><span class="text-dark text-decoration-none">Популярні товари</span></div></a>
-        <!--      <!--  <a class="text-decoration-none" href=".//#action-product"><div class="header-card "><span class="text-dark text-decoration-none">Акційні товари</span></div></a>-->
+                <a class="text-decoration-none" href=".//#action-product"><div class="header-card "><span class="text-dark text-decoration-none">Акційні товари</span></div></a>
             <!--    <a class="text-decoration-none" href=".//#new-product"><div class="header-card "><span class="text-dark text-decoration-none">Нові товари</span></div></a>-->
              <!--   <a class="text-decoration-none" href=".//#discount"><div class="header-card "><span class="text-dark text-decoration-none">Уцінка</span></div></a>-->
             </div>

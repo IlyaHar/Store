@@ -11,7 +11,8 @@ require PARTS_DIR . 'header.php';
                     <div class="card-content">
                         <img class="image-main" src="<?= IMAGES_URI ?>/rekold.jpg" alt="">
                         <h6 class="text-center mt-3">Насіння соняшника Рекольд під гербіцид Гранстар, фракції Екстра</h6>
-                        <p class="text-center text-danger price-card">3700 грн</p>
+                        <strike><p class="text-center text-danger price-card">3700 грн</p></strike>
+                        <p class="text-center text-danger price-card">3600 грн</p>
                     </div>
                 </a>
             </div>

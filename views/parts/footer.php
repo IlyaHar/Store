@@ -37,15 +37,19 @@
             </div>-->
             <div id="contacts" class="column-contacts">
                 <h5>КОНТАКТИ</h5>
-                <span>+38 (098) 531 609 7</span><br>
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                <span>+38 (098) 531 6097</span><br>
+                <i class="fa-brands fa-telegram " style="color: #4dbbff;"></i>
+                <span>+38 (063) 896 0419</span><i class="fa-brands fa-viber mx-1" style="color: #c14dff;"></i>
+
                 <p class="mt-1">
                     avmagroplus@gmail.com
                 </p>
-                <div class="footer-socials">
+             <!--   <div class="footer-socials">
                     <a href=""><i class="fa-brands fa-youtube fs-4 social-footer text-light"></i></a>
                     <a href=""><i class="fa-brands fa-instagram fs-4 social-footer text-light"></i></a>
                     <a href=""><i class="fa-brands fa-facebook fs-4 social-footer text-light"></i></a>
-                </div>
+                </div>-->
             </div>
         </div>
 </footer>
@@ -103,15 +107,19 @@
         </h2>
         <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-             <span> +38 (098) 531 609 7</span><br>
+                <i class="fa-solid fa-phone" style="color: black;"></i>
+                <span>+38 (098) 531 6097</span><br>
+                <i class="fa-brands fa-telegram " style="color: #4dbbff;"></i>
+                <span>+38 (063) 896 0419</span><i class="fa-brands fa-viber mx-1" style="color: #c14dff;"></i>
+
                 <p class="mt-1">
                     avmagroplus@gmail.com
                 </p>
-                <div class="footer-socials">
+        <!--        <div class="footer-socials">
                     <a href=""><i class="fa-brands fa-youtube fs-4 social-footer text-dark"></i></a>
                     <a href=""><i class="fa-brands fa-instagram fs-4 social-footer text-dark"></i></a>
                     <a href=""><i class="fa-brands fa-facebook fs-4 social-footer text-dark"></i></a>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

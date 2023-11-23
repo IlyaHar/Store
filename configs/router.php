@@ -160,7 +160,15 @@ switch (getUrl()) {
     case 'material':
         require PAGE_DIR . '/material.php';
         break;
-
+    case 'aboutus':
+        require PAGE_DIR . '/aboutus.php';
+        break;
+    case 'delivery':
+        require PAGE_DIR . '/delivery.php';
+        break;
+    case 'payment':
+        require PAGE_DIR . '/payment.php';
+        break;
 
 
 

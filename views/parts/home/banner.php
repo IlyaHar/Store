@@ -1,17 +1,18 @@
 
 <div class="container slide ">
         <div class="MySlides fade1 ">
-            <a class="image" href="#"><img class="image-banner" src="<?= IMAGES_URI ?>/banner.jpeg" style="width: 100% ;" alt="banner"></a>
+            <a class="image" href="/geliantex"><img class="image-banner" src="<?= IMAGES_URI ?>/banner.jpeg" style="width: 100% ;" alt="banner"></a>
         </div>
+    <div class="MySlides fade1 ">
+        <a class="image" href="/rekold"><img class="image-banner" src="<?= IMAGES_URI ?>/banner3.jpeg" style="width: 100%;" alt="banner"></a>
+    </div>
         <div class="MySlides fade1 ">
-            <a class="image" href="#"><img class="image-banner" src="<?= IMAGES_URI ?>/banner2.jpeg" style="width: 100%;" alt="banner"></a>
+            <a class="image" href="/ekoflow"><img class="image-banner" src="<?= IMAGES_URI ?>/banner2.jpeg" style="width: 100%;" alt="banner"></a>
         </div>
-        <div class="MySlides fade1 ">
-            <a class="image" href="#"><img class="image-banner" src="<?= IMAGES_URI ?>/banner3.jpeg" style="width: 100%;" alt="banner"></a>
-        </div>
-        <div class="MySlides fade1 ">
-        <a class="image" href="#"><img class="image-banner" src="<?= IMAGES_URI ?>/banner4.jpeg" style="width: 100%;" alt="banner"></a>
-        </div>
+
+    <div class="MySlides fade1 ">
+        <a class="image" href="#"><img class="image-banner" src="<?= IMAGES_URI ?>/banner4.jpeg" style="width: 100% ;" alt="banner"></a>
+    </div>
 </div>
 <br>
 <div  class="container d-flex justify-content-center">

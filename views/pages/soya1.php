@@ -15,12 +15,11 @@ require PARTS_DIR . 'header.php';
                         <div class="brand mt-3" itemprop="brand" itemscope="" >
 
 
-                        <div class="model"><span>Модель: </span>Соя</div>
-
+                            <span>Рік врожаю: </span><span itemprop="name">2023</span></div>
 
                         <div class="stock"><span>Наявність:</span> <i class="fa fa-check-square-o"></i> Є в наявності</div>
                     </div>
-                </div>
+
                 <button type="button" class="btn btn-primary mt-4 btn-buy" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Купити
                 </button>
@@ -35,7 +34,7 @@ require PARTS_DIR . 'header.php';
                                 <div class="modal-body">
                                     <div class="phone1 text-center">
                                         <i class="fa-solid fa-phone"></i>
-                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 609 7</a>
+                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 6097</a>
                                     </div>
                                 </div>
                             </div>

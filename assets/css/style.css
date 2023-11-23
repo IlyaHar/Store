@@ -541,7 +541,56 @@ ol li {
     display: none;
 }
 
+.stock {
+    color: green;
+}
 
+.image-banner {
+    max-width: 736px !important;
+    max-height: 286px !important;
+}
+
+.delivery-text {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.poshta-logo {
+    margin-top: 50px;
+}
+
+.delivery-text2 {
+    width: 555px;
+    margin: 0 auto;
+    padding-left: 0px;
+    text-align: justify;
+}
+
+.delivery-text3 {
+    width: 300px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+
+
+.poshta-bus {
+    max-width: 270px;
+}
+
+.payment-text {
+    max-width: 500px;
+    text-align: justify ;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.aboutus-img {
+    max-width: 200px;
+    margin-top: 50px;
+}
 @media (max-width: 1400px) {
     .column-contacts {
         margin-left: 30px;
@@ -638,6 +687,10 @@ ol li {
         height: 20px; /* Здесь установите нужный вам отступ сверху */
     }
 
+    .payment-text {
+
+        padding-top: 150px;
+    }
 
 
 
@@ -783,6 +836,10 @@ ol li {
         font-weight: 900;
     }
 
+    .delivery{
+        margin-top: 130px ;
+    }
+
 }
 
 @media (max-width: 770px) {
@@ -833,6 +890,53 @@ ol li {
 
     }
 
+    .delivery{
+        flex-direction: column;
+    }
+    .poshta-logo {
+        margin: 0 auto;
+    }
+
+    .delivery-text {
+        margin: 0 auto;
+        padding-top: 20px;
+
+    }
+
+    .delivery-text2 {
+        width: 400px;
+        margin-left: 30px;
+        text-align: justify;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin: 0 auto;
+
+
+    }
+
+    .poshta-bus {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .delivery-text3, . .delivery-text4 {
+        width: 400px !important;
+        margin-top: 20px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .delivery2 {
+        flex-direction: column;
+        margin: 0 auto
+
+    ;
+    }
+
+    .aboutus-img {
+        margin: 0 auto;
+    }
+
 
 
   
@@ -857,6 +961,11 @@ ol li {
 @media (max-width: 460px) {
     td span {
         font-size: 11px !important;
+    }
+
+    .delivery-text3, .delivery-text, .delivery-text2 {
+        width: 300px !important;
+
     }
 
 }
@@ -900,6 +1009,11 @@ ol li {
 
     .card {
         width: 140px;
+    }
+
+    .delivery-text3, .delivery-text, .delivery-text2 {
+        width: 250px !important;
+
     }
 
     

@@ -11,7 +11,11 @@ require PARTS_DIR . 'header.php';
                     <div class="card-content">
                         <img class="image-main" src="<?= IMAGES_URI ?>/ekoflow.jpeg" alt="">
                         <h6 class="text-center mt-3">EKO FLOW</h6>
-                        <p class="text-center text-danger price-card">190 грн / л</p>
+                        <p class="text-card">
+                            <span>(Az,P,Fe,K,Ca,Mg,B,Cu,Mn,Zn,Co,Mo)</span>
+                        </p>
+                        <strike><p class="text-center text-danger price-card">190 грн / л</p></strike>
+                        <p class="text-center text-danger price-card">165 грн / л</p>
                     </div>
                 </a>
             </div>

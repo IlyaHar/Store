@@ -6,14 +6,15 @@ require PARTS_DIR . 'header.php';
             <img class="image-main1" src="<?= IMAGES_URI ?>/ekoflow.jpeg" alt="">
             <section class="text-product  ">
                 <h5 class="">EKO FLOW</h5>
-                <h4 class="text-danger mt-3">190 грн / л</h4>
+
+                    <span class="float-start pb-3">(Az,P,Fe,K,Ca,Mg,B,Cu,Mn,Zn,Co,Mo)</span>
+
+                <strike><h4 class="text-danger mt-3">190 грн / л</h4></strike>
+                <h4 class="text-danger mt-3">165 грн / л</h4>
                 <div class="product-box-desc">
                     <div class="inner-box-desc">
 
-                        <div class="brand mt-3" itemprop="brand" itemscope="" itemtype="http://schema.org/Brand">
-                            <span>Виробник: </span><span itemprop="name">ТОВ НВП "Агро-Ритм" </span></div>
 
-                        <div class="model"><span>Модель: </span> Альдазор</div>
 
 
                         <div class="stock"><span>Наявність:</span> <i class="fa fa-check-square-o"></i> Є в наявності</div>
@@ -33,7 +34,7 @@ require PARTS_DIR . 'header.php';
                                 <div class="modal-body">
                                     <div class="phone1 text-center">
                                         <i class="fa-solid fa-phone"></i>
-                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 609 7</a>
+                                        <a class="text-decoration-none text-dark fs-5 mx-2" href="">+38 (098) 531 6097</a>
                                     </div>
                                 </div>
                             </div>

@@ -5,17 +5,16 @@ require PARTS_DIR . 'header.php';
         <div class="main-products2">
             <h2 id="discount" class="product-main text-secondary">Гербіциди</h2>
         </div>
-        <div class="card-container d-flex justify-content-center" id="products-container">
-            <div class="card-container d-flex justify-content-center" id="products-container">
-                <div class="card">
-                    <a href="/geliantex" class="text-dark text-decoration-none">
-                        <div class="card-content">
-                            <img class="image-main" src="<?= IMAGES_URI ?>/geliantex.jpg" alt="">
-                            <h6 class="text-center mt-3">ГЕЛІАНТЕКС</h6>
-                            <p class="text-center text-danger price-card">15500 грн / л</p>
-                        </div>
-                    </a>
-                </div>
+        <div class="card-container d-flex justify-content-center " id="products-container">
+            <div class="card">
+                <a href="/geliantex" class="text-dark text-decoration-none">
+                    <div class="card-content">
+                        <img class="image-main" src="<?= IMAGES_URI ?>/geliantex.jpg" alt="">
+                        <h6 class="text-center mt-3">ГЕЛІАНТЕКС</h6>
+                        <strike><p class="text-center text-danger price-card">17100 грн / л</p></strike>
+                        <p class="text-center text-danger price-card">15500 грн / л</p>
+                    </div>
+                </a>
             </div>
             <div class="card">
                 <a href="/pristar" class="text-dark text-decoration-none">
@@ -53,6 +52,7 @@ require PARTS_DIR . 'header.php';
                     </div>
                 </a>
             </div>
+
         </div>
         <div class="card-container d-flex justify-content-center " id="products-container">
             <div class="card">
@@ -103,21 +103,24 @@ require PARTS_DIR . 'header.php';
                     </div>
                 </a>
             </div>
-            <div class="card">
-                <a href="/ventura" class="text-dark text-decoration-none">
-                    <div class="card-content">
-                        <img class="image-main" src="<?= IMAGES_URI ?>/ventura.jpg" alt="">
-                        <h6 class="text-center mt-3">ВЕНТУРА</h6>
-                        <p class="text-card">
-                            <span>Клетодим, 120 г/л</span>
-                        </p>
 
-                        <p class="text-center text-danger price-card">2900 грн / 5 л</p>
-                    </div>
-                </a>
-            </div>
         </div>
+        <div class="card-container d-flex justify-content-center " id="products-container">
+        <div class="card">
+            <a href="/ventura" class="text-dark text-decoration-none">
+                <div class="card-content">
+                    <img class="image-main" src="<?= IMAGES_URI ?>/ventura.jpg" alt="">
+                    <h6 class="text-center mt-3">ВЕНТУРА</h6>
+                    <p class="text-card">
+                        <span>Клетодим, 120 г/л</span>
+                    </p>
 
+                    <p class="text-center text-danger price-card">2900 грн / 5 л</p>
+                </div>
+            </a>
+        </div>
+        </div>
+    </div>
 
 
 <!--            <div class="card">-->
